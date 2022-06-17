@@ -1,0 +1,97 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.titulo {
+  grid-column: 1 / -1;
+  color: black;
+}
+
+body {
+  font-family: Arial;
+  margin: 40px;
+  background-color: #f5dfd6;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 1;
+}
+
+span {
+  font-size: 20px;
+  color: black;
+}
+
+.foto {
+  max-width: 60%;
+  border-radius: 4px;
+}
+
+.foto:hover {
+  box-shadow: 4px 4px 4px rgba(250, 160, 229, 1);
+}
+
+.foto::after {
+  width: 100px;
+  height: 100px;
+  color: red;
+}
+
+.comprar {
+  background: #d7f7f1;
+  color: #332200;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 0px;
+  text-decoration: none;
+  box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.descricao {
+  color: black;
+  text-align: center;
+}
+
+.item {
+  display: grid;
+  color: #fff;
+  border-radius: 5px;
+  place-items: center;
+  gap: 10px;
+}
+
+.grid2 {
+  display: grid;
+  gap: 20px;
+}
+
+.photo {
+  place-self: center;
+  max-width: 60%;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+
+hr {
+  margin: 40px 0px 40px 0px;
+  border: 1px solid #f0ccbf;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 25%;
+  place-self: center;
+}
+
+.insta {
+  display: grid;
+  place-items: end;
+}
